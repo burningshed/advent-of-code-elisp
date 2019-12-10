@@ -1,0 +1,5 @@
+* Introduction
+I am using emacs lisp to solve the 2019 Advent of Code problems. 
+While trying to figure out how best to get the input into a usable form I found this github repo:
+ [[link:https://github.com/Quiescent/Advent-of-Code-in-Emacs-Lisp][ Quiescent's Solution from 2017]]. I liked the formatting and will be basing mine on it.
+:w 
