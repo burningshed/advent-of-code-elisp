@@ -14,12 +14,17 @@
 (defun aoc2019-day1-part2
     (day1-input)
   "this runs calc-fuel-full on each item of the list"
-  (let result (dolist (current-mod day1-input result) (+ result (calc-fuel-full current-mod) )
+  (let ((result 0)) (dolist (current-mod day1-input result) (setq result (+ result (calc-fuel-full current-mod)) )
  )))
+
 
 (defun aoc2019-solve (input)
   "handles formatting of the input and output such that it will display reasonably when called"
   (aoc2019-day1-part2 input))
+
+(+ (calc-fuel-full 14) 2)
+ 
+(aoc2019-day1-part2 '(14 1969 100756))
 
 (provide 'day1)
 

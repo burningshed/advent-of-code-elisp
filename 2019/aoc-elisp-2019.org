@@ -5,7 +5,7 @@ While trying to figure out how best to get the input into a usable form I found 
  [[link:https://github.com/Quiescent/Advent-of-Code-in-Emacs-Lisp][ Quiescent's Solution from 2017]]. I liked the formatting and will be basing mine on it.
 
 ** Day 1
-#+BEGIN_SRC emacs-lisp :results value
+#+BEGIN_SRC emacs-lisp
 
 (add-to-list 'load-path (file-name-directory "./week1/day1.el"))
 (require 'day1)
@@ -112,4 +112,7 @@ While trying to figure out how best to get the input into a usable form I found 
 135700
 ) )
 #+END_SRC
+
+#+RESULTS:
+: 4822249
 
